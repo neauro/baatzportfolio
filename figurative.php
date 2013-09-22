@@ -1,7 +1,7 @@
 <?php include "include/_header.php"; ?> 
 
 <div id="container">
-  <h1>figurative</h1>
+  <h1>Figurative</h1>
   <?php
     foreach (glob("content/figurative/*/") as $filename) {
       $descfile = $filename . "desc.txt";

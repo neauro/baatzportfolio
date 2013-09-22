@@ -32,23 +32,8 @@ div#container {
     .landing:hover {
       cursor:pointer;
     }
-  div#landing {
-    width:50%;
-    position:absolute;
-    right:0;
-    top:4rem;
-    min-height:515px;
-  }
-    #landing.internal {
-      background-image: none;
-      width:100%;
-    }
-    ul#nav,
-    ul#main-nav,
-    ul#footer-nav {
-      margin: 0px auto;
-    }
     ul#nav {
+      margin: 0px auto;
       position:absolute;
       right:0;
       font-family: "Raleway";
@@ -70,17 +55,6 @@ div#container {
         ul#nav a:hover {
           text-decoration:underline;
         }
-    ul#footer-nav {
-      width:400px;
-      font-size:21px;
-      margin-top:38px;
-    }
-      ul#main-nav li {
-        display:inline;
-        list-style:none;
-        margin-right:61px;
-        margin-left:11px;
-      }
     #header {
       position:absolute;
       top:0rem;
@@ -89,13 +63,6 @@ div#container {
       margin:0px auto;
       padding-left:1rem;
     }
-      #header.internal {
-        top:0;
-        height:99%;
-        margin:0x auto;
-        padding:0;
-        width:80%;
-      }
       #header h1 {
         margin:0;
         margin-top:0.5rem;
@@ -105,131 +72,12 @@ div#container {
         font-size:30pt;
         color:#222;
       }
-        #header.internal h1 {
-          margin: 1rem 0;
-          color:#222;
-        }
   #main {
     margin:0px auto;
     margin-top:5rem;
     max-width:940px;
     width:940px;
   }
-      ul#main-nav {
-        display:inline-block;
-        margin-left:1rem;
-        margin-bottom:1rem;
-        text-transform:lowercase;
-      }
-        ul#main-nav li {
-          color:#666;
-          font-size:19px;
-          text-decoration:underline;
-        }
-          #main-nav li:hover {
-            color:#999;
-            cursor:pointer;
-          }
-    div#main div#main-container {
-      width:71%;
-      min-width:347px;
-      overflow:hidden;
-      margin:0px auto;
-    }
-      div#main-container div.work-item{
-        min-width:327px;
-        max-width:327px;
-        min-height:200px;
-        max-height:200px;
-        background-color:#eeeee2;
-        border-radius:3px;
-         -moz-border-radius: 3px;
-         -webkit-border-radius: 3px;
-        float:left;
-        margin:10px;
-        overflow:hidden;
-      }
-        div.work-item a:link,
-        div.work-item a:visited {
-          color:#666;
-        }
-        div.work-item a:hover {
-          color:#d67d97;
-        }
-        div.work-item-genre {
-          background-color:rgba(255,255,255,0.8);
-          overflow:hidden;
-          height:40px;
-          padding-top:4px;
-          position:relative;
-          bottom:44px;
-        }
-          .web {
-            color:#d65d80;
-          }
-          .game {
-            color:#62a92a;
-          }
-          .story {
-            color:#af56be;
-          }
-          div.work-item-genre h1,
-          div.work-item-genre h2 {
-            margin:0px auto;
-            font-size:10px;
-            margin: 0px auto;
-            text-align: center;
-          }
-          div.work-item-genre h1 {
-            font-size:18px;
-          }
-          div.work-item-genre h2 {
-            text-transform:lowercase;
-            margin-top:2px;
-            font-size:14px;
-          }
-        div.work-item-desc {
-          background-color:rgba(255,255,255,0.8);
-          overflow:hidden;
-          padding:10px;
-          height:160px;
-          position:relative;
-          top:156px;
-        }
-  div#about {
-    background-color:#6b6b6b;
-    margin-top:1px;
-    padding-left:30px;
-    padding-top:20px;
-    padding-bottom:30px;
-  }
-    div#about h1 {
-      margin:0px;
-      font-family:"Oleo Script Swash Caps";
-      color: #D67D97;
-      text-shadow: -1px -1px 1px #474747;
-      font-size:46px;
-    }
-    div#about div#about-container {
-      width:80%;
-      margin-left:20px;
-    }
-      div#about-container p {
-        width:80%;
-        margin-left:20px;
-        color:#fff;
-        text-shadow:1px 1px 1px #222;
-        font-size:17px;
-      }
-
-
-#portrait-container,
-#still-life-container,
-#photography-container,
-#charcoal-container,
-#ink-container {
-  display:none;
-}
 
 /* fancybox */
 .fancybox {

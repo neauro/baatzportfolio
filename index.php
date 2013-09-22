@@ -123,7 +123,6 @@
       </div>
     </div>
   </div>
-  COPYRIGHT
 </div>
 
 <?php include "include/_footer.php"; ?> 

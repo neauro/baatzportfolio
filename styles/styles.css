@@ -29,9 +29,13 @@ div#container {
     margin-left:2px;
     background-size:cover;
       -moz-background-size:cover;
+      position:relative;
   }
     .landing p {
       color:#fff;
+      position:absolute;
+      bottom:1rem;
+      width:100%;
       font-family:"Raleway";
       -webkit-transition: opacity 0.1s linear;
          -moz-transition: opacity 0.1s linear;

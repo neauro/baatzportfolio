@@ -1,9 +1,9 @@
 <?php include "include/_header.php"; ?> 
 
 <div id="container">
-  <h1>figurative</h1>
+  <h1>Photography</h1>
   <?php
-    foreach (glob("content/figurative/*/") as $filename) {
+    foreach (glob("content/photography/*/") as $filename) {
       $descfile = $filename . "desc.txt";
       $desc = fopen($descfile, "r");
       $thumbnail = $filename . "thumbnail.jpg"; 

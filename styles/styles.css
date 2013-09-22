@@ -8,36 +8,63 @@ a {
   text-decoration:none;
 }
   a:hover {
-    text-decoration:underline;
+    cursor:pointer;
   }
 div#container {
-  min-width:100%;
+  width:100%;
+  max-width:940px;
+  margin:0px auto;
   height:100%;
+  padding:1rem;
+  margin-top:1rem;
 }
-  div#landing {
-    width:100%;
-    height:100%;
-    background: #fff url("../images/header_bg.jpg") 50% 10% no-repeat;
-    min-height:515px;
+  #container h1 {
+    font-family: "Volkhov";
+  }
+  .landing {
+    width:16%;
+    height:500px;
+    float:left;
+    margin-left:2px;
     background-size:cover;
-      -moz-background-size: cover;
+      -moz-background-size:cover;
+  }
+    .landing:hover {
+      cursor:pointer;
+    }
+  div#landing {
+    width:50%;
+    position:absolute;
+    right:0;
+    top:4rem;
+    min-height:515px;
   }
     #landing.internal {
       background-image: none;
+      width:100%;
     }
     ul#nav,
     ul#main-nav,
     ul#footer-nav {
       margin: 0px auto;
-      font-size:24px;
     }
     ul#nav {
+      position:absolute;
+      right:0;
+      font-family: "Raleway";
+      font-weight:200;
+      top:1.5rem;
       list-style:none;
       padding:0;
+      font-size:20px;
     }
+      ul#nav li {
+        margin-right:2rem;
+        display:inline-block;
+      }
       ul#nav a {
-        color:#fff;
         text-decoration:none;
+        color:#6f6f6f;
         text-align:right;
       }
         ul#nav a:hover {
@@ -48,35 +75,18 @@ div#container {
       font-size:21px;
       margin-top:38px;
     }
-      ul#main-nav li,
-      ul#footer-nav li {
+      ul#main-nav li {
         display:inline;
         list-style:none;
         margin-right:61px;
         margin-left:11px;
       }
-        ul#footer-nav li a:link,
-        ul#footer-nav li a:visited{
-          display:inline;
-          list-style:none;
-          color:#5f5f5f;
-          text-decoration:none;
-          transition: color 0.5s ease 0s;
-            -moz-transition: color 0.5s ease 0s;
-            -webkit-transition: color 0.5s ease 0s;
-            -o-transition: color 0.5s ease 0s;
-        }
-        ul#footer-nav li a:link,
-        ul#footer-nav li a:visited{
-          color:#fff;
-        }
-    div#header {
-      text-transform:lowercase;
+    #header {
       position:absolute;
-      top:20%;
-      right:15%;
+      top:0rem;
+      width:100%;
+      right:0;
       margin:0px auto;
-      height:250px;
       padding-left:1rem;
     }
       #header.internal {
@@ -88,35 +98,23 @@ div#container {
       }
       #header h1 {
         margin:0;
+        margin-top:0.5rem;
+        margin-left:1.5rem;
         font-family: "Volkhov";
         font-weight:lighter;
-        line-height:47pt;
-        color:#fff;
+        font-size:30pt;
+        color:#222;
       }
-        #header h1 {
-          font-size:50pt;
-        }
         #header.internal h1 {
           margin: 1rem 0;
           color:#222;
         }
-  div#main {
-    min-height:300px;
-    padding-top:30px;
-    padding-left:30px;
-    margin-bottom:100px;
-    overflow:hidden;
-    padding-bottom:5rem;
+  #main {
+    margin:0px auto;
+    margin-top:5rem;
+    max-width:940px;
+    width:940px;
   }
-    div#main div#main-header {
-      overflow:hidden;
-    }
-      div#main h1 {
-        font-family: "Arbutus Slab", "Georgia",serif;
-        margin-bottom:0px;
-        text-shadow: 1px 1px 1px #C4C4C4;
-        display:inline-block;
-      }
       ul#main-nav {
         display:inline-block;
         margin-left:1rem;

@@ -11,7 +11,7 @@
     <script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="scripts/scripts.js"></script>
     <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Rambla|Arbutus+Slab|Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Volkhov' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -29,18 +29,16 @@
   <div id="container">
     <div id="landing">
       <div id="header">
-        <h1>Hello!</h1>
-        <h2>I'm <span id="name">Fong,</span></h2>
-        <h3>an artist and teacher</h3>
-        <h4>in the Pacific Northwest</h4>
-        <!-- <h5>&amp; etc.</h5> -->
-
+        <h1>fong baatz</h1>
         <ul id="nav">
-          <!-- <li><a href="http://neauro.com/files/nadine_aurora_tabing__resume.pdf" class="nav-resume">resume</a></li> -->
-          <!-- <li><a href="http://nuubu.blogspot.com" class="nav-blog">blog</a></li> -->
-          <li><span class="nav-work" id="work-button">work</a></li>
-          <li><span class="nav-about" id="about-button">about</a></li>
+          <li><a href="figurative.php">Figurative</a></li>
+          <li><a href="portrait.php">Portrait</a></li>
+          <li><a href="stilllife.php">Still Life</a></li>
+          <li><a href="photography.php">Photography</a></li>
+          <li><a href="sketches.php">Sketches</a></li>
+          <li><a href="chineseink.php">Chinese Ink</a></li>
         </ul>
+
       </div>
     </div>
     <div id="main">

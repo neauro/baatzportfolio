@@ -12,7 +12,7 @@ div#container {
   div#landing {
     width:100%;
     height:100%;
-    background: #5d5d5d url("../images/header_bg.jpg") center center no-repeat;
+    background: #5d5d5d url("../images/header_bg.jpg") 50% 10% no-repeat;
     min-height:515px;
     background-size:cover;
       -moz-background-size: cover;
@@ -21,19 +21,22 @@ div#container {
     ul#main-nav,
     ul#footer-nav {
       margin: 0px auto;
-      font-family:"Oleo Script Swash Caps";
       font-size:24px;
     }
     ul#nav {
-      position:absolute;
-      bottom:12px;
+      list-style:none;
+      padding:0;
     }
+      ul#nav a {
+        color:#fff;
+        text-decoration:none;
+        text-align:right;
+      }
     ul#footer-nav {
       width:400px;
       font-size:21px;
       margin-top:38px;
     }
-      ul#nav li,
       ul#main-nav li,
       ul#footer-nav li {
         display:inline;
@@ -41,8 +44,6 @@ div#container {
         margin-right:61px;
         margin-left:11px;
       }
-        ul#nav li a:link,
-        ul#nav li a:visited,
         ul#footer-nav li a:link,
         ul#footer-nav li a:visited{
           display:inline;
@@ -58,87 +59,24 @@ div#container {
         ul#footer-nav li a:visited{
           color:#fff;
         }
-        ul#nav li a:hover,
-        ul#nav li span:hover{
-          text-shadow:1px 1px 3px #fff;
-          cursor:pointer;
-        }
-          ul#nav .nav-resume:hover,
-          ul#footer-nav .nav-resume:hover {
-            color:#d65d80;
-          }
-          ul#nav .nav-blog:hover,
-          ul#footer-nav .nav-blog:hover {
-            color:#df9062;
-          }
-          ul#nav .nav-work:hover {
-            color:#af56be;
-          }
-          ul#nav .nav-about:hover,
-          ul#footer-nav .nav-about:hover {
-            color:#91d45d;
-          }
     div#header {
       text-transform:lowercase;
-      background-color:rgba(255,255,255,0.5);
-      position:relative;
-      top:20%;
-      margin:0px auto;
-      width: 550px;
-      height:250px;
-      padding-top: 50px;
-      padding-bottom: 62px;
-      color:#5e5e5e;
-      /*
-      text-shadow: -1px -1px 1px #777;
-      */
-    }
-    /*
-    div#header:before {
-      content:"";
-      color: #fff;
-      border:2px solid #fff;
-      width:552px;
-      height:600px;
       position:absolute;
-      top:1px;
-      left:-2px;
+      top:20%;
+      right:15%;
+      margin:0px auto;
+      height:250px;
+      padding-left:1rem;
     }
-    */
-      #header h1, #header h2, #header h3, #header h4, #header h5 {
-        text-align:center;
-        margin:0px auto;
-        font-family: "Arbutus Slab", "Georgia",serif;
-        line-height:30px;
-        text-shadow:-1px -1px 1px #fff;
-        transition: color 0.5s ease 0s;
-          -moz-transition: color 0.5s ease 0s;
-          -webkit-transition: color 0.5s ease 0s;
-          -o-transition: color 0.5s ease 0s;
+      #header h1 {
+        margin:0;
+        font-family: "Volkhov";
+        font-weight:lighter;
+        line-height:47pt;
+        color:#fff;
       }
-        #header h1:hover,#header h2:hover,#header h3:hover,#header h4:hover,#header h5:hover {
-          color:#ac2b50;
-          cursor:default;
-        }
         #header h1 {
-          /*
-          font-size:53px;
-          */
-          font-size:21px;
-          font-weight:700;
-          margin-bottom:39px;
-        }
-        #header h2 span#name {
-          font-size:150%;
-          font-weight:700;
-        }
-        #header h4 {
-          font-size:30px;
-          font-weight:700;
-        }
-        #header h5 {
-          font-size:18px;
-          line-height:30px;
+          font-size:50pt;
         }
   div#main {
     min-height:300px;

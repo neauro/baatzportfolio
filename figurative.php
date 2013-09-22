@@ -1,7 +1,7 @@
 <?php include "include/_header.php"; ?> 
 
 <div id="container">
-  <div id="landing">
+  <div class="internal" id="landing">
     <div class="internal" id="header">
       <h1>figurative</h1>
       <?php

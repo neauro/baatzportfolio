@@ -15,11 +15,11 @@
 
     </div>
   </div>
+<!--
   <div id="main">
     <div id="main-header">
       <h1>Work</h1>
       <ul id="main-nav">
-        <!-- <li id="show-all">All</li> -->
         <li id="show-figure">Figurative</li>
         <li id="show-portrait">Portrait</li>
         <li id="show-still-life">Still Life</li>
@@ -123,6 +123,7 @@
       </div>
     </div>
   </div>
+  -->
 </div>
 
 <?php include "include/_footer.php"; ?> 

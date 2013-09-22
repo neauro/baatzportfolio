@@ -4,19 +4,27 @@ html,body {
   font-family: "Georgia", serif;
   color:#222;
 }
+a {
+  text-decoration:none;
+}
+  a:hover {
+    text-decoration:underline;
+  }
 div#container {
   min-width:100%;
   height:100%;
-  background-color:#5d5d5d;
 }
   div#landing {
     width:100%;
     height:100%;
-    background: #5d5d5d url("../images/header_bg.jpg") 50% 10% no-repeat;
+    background: #fff url("../images/header_bg.jpg") 50% 10% no-repeat;
     min-height:515px;
     background-size:cover;
       -moz-background-size: cover;
   }
+    #landing.internal {
+      background-image: none;
+    }
     ul#nav,
     ul#main-nav,
     ul#footer-nav {
@@ -32,6 +40,9 @@ div#container {
         text-decoration:none;
         text-align:right;
       }
+        ul#nav a:hover {
+          text-decoration:underline;
+        }
     ul#footer-nav {
       width:400px;
       font-size:21px;
@@ -70,12 +81,10 @@ div#container {
     }
       #header.internal {
         top:0;
-        overflow-y:auto;
         height:99%;
-        margin:0;
+        margin:0x auto;
         padding:0;
-        right:0;
-        width:500px;
+        width:80%;
       }
       #header h1 {
         margin:0;
@@ -89,6 +98,7 @@ div#container {
         }
         #header.internal h1 {
           margin: 1rem 0;
+          color:#222;
         }
   div#main {
     min-height:300px;
@@ -242,4 +252,11 @@ div#container {
   position:absolute;
   bottom:0;
   left:0;
+  color:#fff;
+  padding:8px;
+  padding-left:1rem;
+  font-size:10pt;
 }
+  #copyright a {
+    color:#fff;
+  }

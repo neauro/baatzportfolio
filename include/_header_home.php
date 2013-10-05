@@ -26,16 +26,5 @@
   </script>
 </head>
 <div id="container">
-  <div id="header">
-    <a href="index.php"><h1>Fong Baatz</h1></a>
-    <ul id="nav">
-      <li><a href="figurative.php">Figurative</a></li>
-      <li><a href="portrait.php">Portrait</a></li>
-      <li><a href="stilllife.php">Still Life</a></li>
-      <li><a href="photography.php">Photography</a></li>
-      <li><a href="sketches.php">Sketches</a></li>
-      <li><a href="chineseink.php">Chinese Ink</a></li>
-      <li><a href="biography.php">Biography</a></li>
-    </ul> 
-  </div>
+  <div id="header"> <a href="index.php"><h1 class="home">Fong Baatz</h1></a> </div>
 <body>

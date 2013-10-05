@@ -1,4 +1,4 @@
-<?php include "include/_header.php"; ?> 
+<?php include "include/_header_home.php"; ?> 
 
 <div id="main">
   <a href="figurative.php"><div class="landing" style="background-image:url('content/figurative/5/thumbnail.jpg');"><p>figurative</p></div></a>

@@ -3,7 +3,7 @@
 <head>
   <title>[ fong baatz ] portfolio</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="favico.png" type="image/x-icon"/>
     <link rel="shortcut-icon" type="image/x-icon" href="images/favicon.ico"/>
 
     <link rel="stylesheet" href="styles/styles.css" type="text/css"/>

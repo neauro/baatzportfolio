@@ -9,5 +9,3 @@
   <a href="chineseink.php"><div class="landing" style="background-image:url('content/ink/2/thumbnail.jpg');background-position:71%;"><p>chinese ink</p></div></a>
   <?php include "include/_copyright.php"; ?> 
 </div> 
-
-<?php include "include/_footer.php"; ?> 

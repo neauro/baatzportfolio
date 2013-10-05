@@ -35,7 +35,7 @@
       <li><a href="photography.php">Photography</a></li>
       <li><a href="sketches.php">Sketches</a></li>
       <li><a href="chineseink.php">Chinese Ink</a></li>
-      <li><a href="biography.php">Biography</a></li>
+      <li><a href="biography.php">Bio/Contact</a></li>
     </ul> 
   </div>
 <body>

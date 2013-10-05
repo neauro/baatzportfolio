@@ -133,3 +133,7 @@ div#container {
   background-position:10% 10%;
   display:inline-block;
 }
+.fancybox-overlay {
+  background-image: none !important;
+  background-color:rgba(0,0,0,0.8) !important;
+}

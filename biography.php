@@ -9,7 +9,6 @@
 <p>
   Fong lives in Seattle with her three children and her husband. She currently gives private lessons at her own studio, and frequently enjoys participating in open studios around the city. 
 </p>
-</p>
 </div>
 
 <?php include "include/_footer.php"; ?> 

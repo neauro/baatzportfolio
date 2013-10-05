@@ -14,6 +14,7 @@
       </a>
     <?php
       } ?> 
+  <?php include "include/_copyright.php"; ?> 
 </div>
 
 <?php include "include/_footer.php"; ?> 

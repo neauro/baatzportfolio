@@ -25,6 +25,5 @@
      })();
   </script>
 </head>
-<div id="container">
-  <div id="header"> <a href="index.php"><h1 class="home">Fong Baatz</h1></a> </div>
 <body>
+  <div id="header"> <a href="index.php"><h1 class="home">Fong Baatz</h1></a> </div>

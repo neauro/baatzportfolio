@@ -25,7 +25,7 @@
      })();
   </script>
 </head>
-<div id="container">
+<body>
   <div id="header">
     <a href="index.php"><h1>Fong Baatz</h1></a>
     <ul id="nav">
@@ -38,4 +38,3 @@
       <li><a href="biography.php">Bio/Contact</a></li>
     </ul> 
   </div>
-<body>

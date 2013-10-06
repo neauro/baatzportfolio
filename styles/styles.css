@@ -15,7 +15,7 @@ a {
   margin:0px auto;
   padding-top:1rem;
   position:relative;
-  margin-top:4rem;
+  margin-top:7rem;
 }
   #container h2 {
     color:#3C3C3C;
@@ -29,6 +29,7 @@ a {
     float:left;
     margin-left:2px;
     margin-bottom:1rem;
+    margin-top:5rem;
     background-size:cover;
       -moz-background-size:cover;
       position:relative;
@@ -56,7 +57,7 @@ a {
     ul#nav {
       margin: 0px auto;
       position:absolute;
-      right:0;
+      right:5rem;
       font-family: "Raleway";
       font-weight:200;
       top:1.5rem;
@@ -83,6 +84,7 @@ a {
       right:0;
       margin:0px auto;
       padding-left:1rem;
+      margin-top:2rem;
     }
       #header h1 {
         margin:0;
@@ -99,7 +101,8 @@ a {
         text-align:center;
         padding:0;
         margin:0;
-        margin-top:1.5rem;
+        margin-top:2.5rem;
+        font-size:37pt;
       }
   #main {
     margin:0px auto;
@@ -140,4 +143,7 @@ a {
 .fancybox-overlay {
   background-image: none !important;
   background-color:rgba(0,0,0,0.8) !important;
+}
+.contact {
+  margin-top:5rem !important;
 }

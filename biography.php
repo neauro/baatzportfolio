@@ -9,6 +9,12 @@
 <p>
   Fong lives in Seattle with her three children and her husband. She currently gives private lessons at her own studio, and frequently enjoys participating in open studios around the city. 
 </p>
+
+  <h2 class="contact">Contact</h2>
+<p>
+Fong Baatz<br/>E-mail: <a href="mailto:fongbaatz@yahoo.com">fongbaatz@yahoo.com</a>.
+</p>
+
 </div>
 
 <?php include "include/_footer.php"; ?> 

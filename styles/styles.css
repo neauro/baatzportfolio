@@ -147,3 +147,46 @@ a {
 .contact {
   margin-top:5rem !important;
 }
+
+@media (min-width:951px) and (max-width:1260px) {
+  ul#nav {
+    position:static;
+    margin-left:2rem;
+  }
+}
+
+@media (max-width:950px) {
+  #header h1 {
+    text-align:center;
+    margin:0px auto;
+    width:100%;
+    margin-bottom:1rem;
+  }
+  ul#nav {
+    position:static;
+    margin-left:2rem;
+    display:block;
+    margin-bottom:2rem;
+  }
+  #container {
+    margin-top:10rem;
+  }
+  #header h1.home {
+    margin-top:0;
+  }
+
+  #main {
+    margin-top:7rem;
+  }
+  .landing {
+    width:100%;
+    height: 10rem;
+    margin-top:0;
+    margin-bottom:0.5rem;
+  }
+    .landing p {
+      font-size:41pt;
+      top:0;
+      opacity:1;
+    }
+}

@@ -3,8 +3,9 @@ html,body {
   font-family: "Georgia", serif;
   color:#222;
 }
-a {
-  text-decoration:none;
+a,
+a:visited {
+  color:#6F6F6F;
 }
   a:hover {
     cursor:pointer;

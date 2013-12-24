@@ -10,7 +10,11 @@
       $desc_text = fgets($desc, 4096);
     ?> 
       <a class="fancybox buttons" title="<?= $desc_text ?>" data-fancybox-group="button" href="<?= $thumbnail ?>">
+      <?php if ($filename == "content/figurative/15/") { ?>
+        <div style="background-image:url(<?= $thumbnail ?>);" class="special"></div>
+      <?php } else { ?>
         <div style="background-image:url(<?= $thumbnail ?>);"></div>
+      <?php } ?>
       </a>
     <?php
       } ?> 

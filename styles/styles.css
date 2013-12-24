@@ -140,6 +140,9 @@ a {
   background-position:10% 10%;
   display:inline-block;
 }
+  .fancybox.buttons div.special {
+    background-position-x:81%;
+  }
 .fancybox-overlay {
   background-image: none !important;
   background-color:rgba(0,0,0,0.8) !important;

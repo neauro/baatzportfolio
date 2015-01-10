@@ -25,7 +25,7 @@ a:visited {
   }
   .landing {
     width:33%;
-    height:300px;
+    height:400px;
     float:left;
     margin-left:2px;
     margin-bottom:1em;
@@ -168,7 +168,7 @@ a:visited {
 }
 
 @media (max-width:950px) {
-  #header {
+  #header.internal {
     height:180px;
   }
   #header h1 {
@@ -200,7 +200,7 @@ a:visited {
 @media (max-width:670px) {
   #header {
     position:static;
-
+    height:180px;
   }
   .landing {
     width:100%;

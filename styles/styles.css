@@ -14,23 +14,21 @@ a:visited {
   width:100%;
   max-width:940px;
   margin:0px auto;
-  padding-top:1rem;
+  padding-top:1em;
+  padding-left:1em;
+  padding-right:1em;
   position:relative;
-  margin-top:7rem;
 }
-  #container h2 {
-    color:#3C3C3C;
-    font-family: "Italiana";
-    margin:0;
-    margin-bottom:0.5rem;
+  #container p {
+    padding-right:4em;
   }
   .landing {
-    width:16%;
+    width:33%;
     height:300px;
     float:left;
     margin-left:2px;
-    margin-bottom:1rem;
-    margin-top:5rem;
+    margin-bottom:1em;
+    margin-top:5em;
     background-size:cover;
       -moz-background-size:cover;
       position:relative;
@@ -38,36 +36,35 @@ a:visited {
     .landing p {
       color:#fff;
       position:absolute;
-      top:1rem;
       width:100%;
       font-family:"Raleway";
-      -webkit-transition: opacity 0.1s linear;
-         -moz-transition: opacity 0.1s linear;
-           -o-transition: opacity 0.1s linear;
-              transition: opacity 0.1s linear;
-      opacity: 0.5;
+      -webkit-transition: bottom 0.1s linear;
+         -moz-transition: bottom 0.1s linear;
+           -o-transition: bottom 0.1s linear;
+              transition: bottom 0.1s linear;
       text-align:center;
-      font-size:18pt;
+      font-size: 25pt;
+      bottom: -1px;
     }
     .landing:hover {
       cursor:pointer;
     }
       .landing:hover p {
-        opacity:1;
+        bottom:10px;
       }
     ul#nav {
       margin: 0px auto;
       position:absolute;
-      right:5rem;
+      right:5em;
       font-family: "Raleway";
       font-weight:200;
-      top:1.5rem;
+      top:1.5em;
       list-style:none;
       padding:0;
       font-size:20px;
     }
       ul#nav li {
-        margin-right:2rem;
+        margin-right:2em;
         display:inline-block;
       }
       ul#nav a {
@@ -75,26 +72,32 @@ a:visited {
         color:#6f6f6f;
         text-align:right;
       }
+      ul#nav a.active {
+        font-weight: bold;
+        border-top: 3px solid #6f6f6f;
+        padding-top: 6px;
+      }
         ul#nav a:hover {
           text-decoration:underline;
         }
     #header {
-      position:absolute;
-      top:0rem;
+      position:relative;
       width:100%;
-      right:0;
+      height:100px;
       margin:0px auto;
-      padding-left:1rem;
-      margin-top:2rem;
+      padding-left:1em;
+      margin-top:2em;
       -webkit-transition: all 0.1s linear;
          -moz-transition: all 0.1s linear;
            -o-transition: all 0.1s linear;
               transition: all 0.1s linear;
     }
       #header h1 {
+        position:absolute;
+        top:0em;
         margin:0;
-        margin-top:0.5rem;
-        margin-left:1.5rem;
+        margin-top:0.5em;
+        margin-left:1.5em;
         font-family: "Italiana";
         font-weight:lighter;
         font-size:30pt;
@@ -111,16 +114,16 @@ a:visited {
       }
   #main {
     margin:0px auto;
-    margin-top:5rem;
+    margin-top:5em;
     max-width:940px;
-    width:940px;
+    width:100%;
   }
     #main #copyright {
       clear:both;
     }
 
 #copyright {
-  padding:1rem 0;
+  padding:1em 0;
   font-size:9pt;
   text-align:center;
   width:100%;
@@ -153,7 +156,7 @@ a:visited {
   background-color:rgba(0,0,0,0.8) !important;
 }
 .contact {
-  margin-top:5rem !important;
+  margin-top:5em !important;
 }
 
 @media (max-height:720px) {
@@ -161,44 +164,56 @@ a:visited {
     margin-top:0;
   }
   #main {
-    margin-top:2rem;
+    margin-top:3em;
   }
 }
 @media (min-width:951px) and (max-width:1260px) {
+  /*
   ul#nav {
     position:static;
-    margin-left:2rem;
-  }
+    margin-left:2em;
+  } */
 }
 
 @media (max-width:950px) {
+  #header {
+    height:156px;
+  }
   #header h1 {
     text-align:center;
     margin:0px auto;
     width:100%;
-    margin-bottom:1rem;
+    margin-top:0.5em;
+    position:static;
   }
   ul#nav {
-    position:static;
-    margin-left:2rem;
+    position: static;
+    margin: 0px auto;
+    margin-left: 1em;
+  }
+  ul#nav li {
     display:block;
-    margin-bottom:2rem;
+    padding-left:6px;
   }
-  #container {
-    margin-top:10rem;
-  }
-  #header h1.home {
-    margin-top:0;
-  }
+    ul#nav a {
+      padding-left:6px;
+    }
+    ul#nav a.active {
+      border-top: 0;
+      border-left: 3px solid #6f6f6f;
+      padding-top: 0px;
+    }
+}
+@media (max-width:670px) {
+  #header {
+    position:static;
 
-  #main {
-    margin-top:7rem;
   }
   .landing {
     width:100%;
-    height: 10rem;
+    height: 10em;
     margin-top:0;
-    margin-bottom:0.5rem;
+    margin-bottom:0.5em;
   }
     .landing p {
       font-size:41pt;

@@ -141,7 +141,7 @@ a:visited {
   text-decoration:none;
 }
 .fancybox.buttons div {
-  width:49%;
+  width:33%;
   min-height:380px;
   max-height:380px;
   background-color:#ccc;

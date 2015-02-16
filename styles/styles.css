@@ -2,6 +2,7 @@ html,body {
   margin:0px auto;
   font-family: "Georgia", serif;
   color:#222;
+  height:100%;
 }
 a,
 a:visited {
@@ -53,6 +54,13 @@ a:visited {
       .landing:hover p {
         bottom:10px;
       }
+    .splash #nav {
+      position:static;
+    }
+      .splash #nav li {
+        display:block;
+        line-height:50px;
+      }
     ul#nav {
       margin: 0px auto;
       position:absolute;
@@ -94,6 +102,10 @@ a:visited {
            -o-transition: all 0.1s linear;
               transition: all 0.1s linear;
     }
+      h1 {
+        font-family: "Italiana";
+        font-weight:lighter;
+      }
       #header h1 {
         position:absolute;
         box-sizing:border-box;
@@ -101,8 +113,6 @@ a:visited {
         margin:0;
         margin-top:0.5em;
         margin-left:1.5em;
-        font-family: "Italiana";
-        font-weight:lighter;
         font-size:30pt;
         color:#222;
         display:inline-block;
@@ -135,6 +145,28 @@ a:visited {
   #copyright a {
     color:#3a3a3a;
   }
+  .splash #copyright {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    text-align:left;
+  }
+
+#right {
+  background-image:url("../content/figurative/56/thumbnail.jpg");
+  background-size:cover;
+}
+#left {
+  padding-left:5%;
+  padding-top:25px;
+}
+.splash {
+  width:50%;
+  box-sizing:border-box;
+  font-size:120%;
+  float:left;
+  height:100%;
+}
 
 /* fancybox */
 .fancybox {

@@ -141,14 +141,16 @@ a:visited {
   text-decoration:none;
 }
 .fancybox.buttons div {
-  width:33%;
-  min-height:380px;
-  max-height:380px;
+  width:22%;
+  min-height:272px;
+  margin-left:9%;
+  margin-bottom:6%;
+  max-height:272px;
   background-color:#ccc;
   border-radius:3px;
      -webkit-border-radius: 3px;
   background-size: cover;
-  background-position:10% 10%;
+  background-position:50% 10%;
   display:inline-block;
 }
   .fancybox.buttons div.special {
@@ -182,7 +184,7 @@ a:visited {
   ul#nav {
     position: static;
     margin: 0px auto;
-    margin-left: 1em;
+    margin-left: 0em;
     margin-top:1em;
   }
   ul#nav li {
@@ -214,4 +216,8 @@ a:visited {
       top:0;
       opacity:1;
     }
+  .fancybox.buttons div {
+    width:45%;
+    margin-left:4%;
+  }
 }

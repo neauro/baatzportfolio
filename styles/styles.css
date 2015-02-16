@@ -155,13 +155,20 @@ a:visited {
 #right {
   background-image:url("../content/figurative/56/thumbnail.jpg");
   background-size:cover;
+  width:71%;
 }
 #left {
   padding-left:5%;
   padding-top:25px;
+  width:29%;
+}
+#super-splash {
+  min-width:710px;
+  width:100%;
+  height:100%;
 }
 .splash {
-  width:50%;
+  width:100%;
   box-sizing:border-box;
   font-size:120%;
   float:left;

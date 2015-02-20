@@ -3,6 +3,7 @@ html,body {
   font-family: "Georgia", serif;
   color:#222;
   height:100%;
+  min-width:320px;
 }
 a,
 a:visited {
@@ -258,5 +259,15 @@ a:visited {
   .fancybox.buttons div {
     width:45%;
     margin-left:4%;
+  }
+}
+@media (max-width:590px) {
+  .splash {
+    float:none;
+    width:100% !important; 
+  }
+  #left {
+    height:initial;
+    padding-top:0;
   }
 }

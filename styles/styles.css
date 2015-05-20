@@ -88,6 +88,10 @@ a:visited {
         color:#222;
         display:inline-block;
       }
+h2 {
+  font-weight:normal;
+  font-size:12pt;
+}
 #copyright {
   padding:1em 0;
   font-size:9pt;
